@@ -5,21 +5,22 @@
 html,
 body {
   height: 100%;
-  background-color: #333;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transition: .5s;
 }
 
 body {
+  background: #333;
   display: -ms-flexbox;
   display: flex;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: .5s;
   color: #fff;
 }
 
  body.light {
-  height: 100%;
-  background-color: #fff;
+  background: #fff;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: .5s;
