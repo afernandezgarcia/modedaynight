@@ -5,7 +5,7 @@
 
 $(document).ready(function($) {
   var mode = localStorage.getItem('mode');
-  if (mode) 
+  if (mode)
     $('body').addClass(mode);
     $('.btn-secondary').addClass(mode);
     $('.nav-link').addClass(mode);
