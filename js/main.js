@@ -30,7 +30,7 @@ $(document).ready(function($) {
     $(".nav-link").removeClass("light");
     $(".active").removeClass("light");
     $(".mastfoot").removeClass("light");
-    $(".day").addClass("light");
+    $(".day").removeClass("light");
     localStorage.setItem('mode', null);
   });
 });
